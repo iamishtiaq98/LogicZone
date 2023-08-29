@@ -1,0 +1,20 @@
+.process {
+    margin-top: -115px !important;
+    font-family: "Poppins", sans-serif !important;
+}
+
+@media screen and (max-width: 1199px) {
+    .process {
+        margin-top: 0px !important;
+    }
+}
+
+.processbox {
+    background-color: #5ebea3;
+
+}
+
+.choosebox {
+    border: 5px solid #5ebea3;
+    border-radius: 20px;
+}

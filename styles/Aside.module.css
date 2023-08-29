@@ -1,0 +1,52 @@
+.main_div {
+    font-size: 12px;
+    letter-spacing: 4px;
+    padding-left: 30px;
+    padding-right: 8px;
+    margin-top: 120px;
+    text-align: center;
+    background-color: #2A2E32; ;
+}
+
+@media screen and (max-width: 600px) {
+    .main_div {
+        font-size: 12px;
+        letter-spacing: 4px;
+        padding-left: 6px;
+        margin-top: 120px;
+        text-align: center;
+    }
+}
+
+.box_aside {
+    writing-mode: vertical-rl;
+}
+
+.box_tel {
+    text-align: center;
+    writing-mode: tb-rl;
+    transform: rotate(-180deg);
+    color: #fff;
+}
+.box_tel a{
+    color: #fff; 
+    text-decoration: none;
+}
+.box_tel a:hover{
+    color: #ec1919; 
+    text-decoration: none;
+}
+.box_email {
+    text-align: center;
+    writing-mode: tb-rl;
+    transform: rotate(-180deg);
+    color: #fff;
+}
+.box_email a{
+    color: #fff; 
+    text-decoration: none;
+}
+.box_email a:hover{
+    color: #ec1919; 
+    text-decoration: none;
+}

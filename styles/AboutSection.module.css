@@ -1,0 +1,86 @@
+.section_padd {
+    padding: 100px 0px;
+}
+
+@media screen and (max-width: 576px) {
+    .section_padd {
+        padding: 40px 33px !important;
+    }
+}
+
+.heading {
+    text-transform: uppercase !important;
+    position: relative !important;
+    font-size: 45px !important;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500
+}
+
+@media (max-width: 992px) {
+    .heading {
+        font-size: 32px !important;
+    }
+}
+
+.mainheadingtext {
+    width: fit-content !important;
+}
+
+.headingtextleft {
+    margin: 0px;
+}
+
+.haedingbar:before {
+    content: '';
+    position: absolute;
+    width: 150px;
+    height: 2.5px;
+    background-color: #0f5270;
+    bottom: -10px;
+}
+
+.haedingbar:after {
+    content: '';
+    position: absolute;
+    background-color: #5ebea3;
+    width: 50px;
+    height: 5px;
+    bottom: -11px;
+    left: 0;
+    right: 0;
+}
+
+.aboutlistcontent {
+    margin-right: 10px;
+}
+
+.icondiv span {
+    width: 64px;
+    height: 64px;
+    border: 2px solid #5ebea3;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.aboutlistcontent .icondiv svg {
+    width: 32px;
+    fill: #5ebea3;
+}
+
+.icondiv svg {
+    fill: #5ebea3;
+}
+
+.aboutlistcontent li:hover .icondiv span {
+    background-color: #5ebea3;
+}
+
+.aboutlistcontent li:hover .icondiv svg {
+    fill: #ffffff;
+}
+
+.listcontent h4 {
+    font-weight: 600;
+    color: #0f5270;
+}

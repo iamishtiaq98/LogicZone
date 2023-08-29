@@ -1,0 +1,12 @@
+.footer_section{
+    background-color: #0f5270;
+    text-align: center;
+}
+.project_name{
+    color:#5ebea3;
+    text-decoration: none;
+}
+.project_name:hover{
+    color:#ffffff;
+    text-decoration: none;
+}

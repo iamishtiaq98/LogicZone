@@ -1,0 +1,79 @@
+.logo {
+    width: 220px;
+}
+@media screen and (max-width: 450px) {
+    .logo {
+        width: 150px !important;
+    }
+}
+@media screen and (max-width: 250px) {
+    .logo {
+        width: 125px !important;
+    }
+}
+.navbar {
+    font-size: 18px;
+    background-color: #0f5270;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    font-size: 18px;
+}
+.navcontainer{
+    width: 100% !important;
+    max-width: 100%;
+    padding-left: 3.6rem;
+    padding-right: 3.6rem;
+}
+
+.navlink {
+    color: #ffffff;
+    padding: 10px 25px !important;
+    border-radius: 0%;
+    text-transform: capitalize;
+}
+
+.navlink:hover {
+    color: #ffffff;
+    background-color: #5ebea3 !important;
+}
+
+.active {
+    color: #ffffff !important;
+    background-color: #5ebea3 !important;
+}
+
+.navlink:after {
+    color: #ffffff !important;
+    background-color: #5ebea3 !important;
+}
+
+.navlink:before {
+    color: #ffffff !important;
+    background-color: #5ebea3 !important;
+}
+
+@media screen and (max-width: 990px) {
+    .togglemenu {
+        background-color: #000000 !important;
+        padding: 2rem !important;
+        list-style: none;
+    }
+}
+
+.navlist {
+    display: flex;
+    list-style: none;
+    color: #fff;
+    padding: 0;
+    align-items: flex-end;
+}
+
+.userli {
+    margin-right: 1rem;
+    border-right: 2px solid #ffffff;
+    padding: 0px 14px !important;
+
+}

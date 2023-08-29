@@ -1,0 +1,36 @@
+.home {
+    background-color: #0f5270 !important;
+    overflow: hidden;
+    padding-top: 100px !important;
+    max-width: 100%;
+    max-height: 700px;
+    padding: 3rem;
+
+}
+
+.title {
+    font-family: "Poppins", sans-serif !important;
+    color: #fff;
+    margin-top: 0;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 2.5rem;
+
+
+}
+
+.heroimg {
+    padding-bottom: 5rem;
+}
+
+@media screen and (max-width: 600px) {
+    .heroimg {
+        padding-bottom: 15rem;
+    }
+}
+@media screen and (max-width: 420px) {
+    .heroimg {
+        padding-bottom: 20rem;
+    }
+
+}

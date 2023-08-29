@@ -1,0 +1,197 @@
+.section_padd {
+    padding: 100px 0px;
+    width: 100%;
+}
+
+.bgbrand {
+    background-color: #0f5270 !important;
+}
+
+.bannertext {
+    font-family: "Poppins", sans-serif !important;
+    font-size: 45px;
+    font-weight: 500
+}
+
+
+.portfolio_section_padd {
+    padding: 70px 0px 70px 0px;
+}
+
+@media screen and (max-width: 576px) {
+    .portfolio_section_padd {
+        padding: 40px 33px !important;
+    }
+}
+
+.mainheadingtext {
+    width: fit-content;
+    margin: 0 auto;
+    color: #212529;
+}
+
+.textuppercase {
+    text-transform: uppercase !important;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+@media (max-width: 992px) {
+    .textuppercase {
+        font-size: 32px !important;
+    }
+}
+
+.positionrelative {
+    font-family: "Poppins", sans-serif !important;
+    position: relative !important;
+}
+
+.haedingbarcenter:before,
+.haedingbar:before {
+    content: '';
+    position: absolute;
+    width: 150px;
+    height: 2.5px;
+    background-color: #0f5270;
+    bottom: -10px;
+}
+
+.haedingbar:after,
+.haedingbarcenter:after {
+    content: '';
+    position: absolute;
+    background-color: #5ebea3;
+    width: 50px;
+    height: 5px;
+    bottom: -11px;
+    left: 0;
+    right: 0;
+}
+
+
+.projectdiv {
+    position: relative;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+}
+
+.projectdiv::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    opacity: 0.5;
+}
+
+
+.projectdiv .projectcontent {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
+    transition: all ease-in-out 0.4s;
+    visibility: hidden;
+    height: 0px;
+    left: 0px;
+    right: 0px;
+}
+@media screen and (max-width: 500px) {
+    .projectdiv .projectcontent {
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 38px;
+        transition: all ease-in-out 0.4s;
+        visibility: hidden;
+        height: 0px;
+        left: 0px;
+        right: 0px;
+    }
+    .zonbtn {
+        padding: 6px 14px 8px 14px !important;
+        font-size: 14px !important;
+    }
+    
+}
+
+.projectdiv:hover .projectcontent {
+    visibility: visible;
+    transition: all ease-in-out 0.7s;
+    top: 0;
+    height: 100%;
+}
+
+.bgbrandprimary {
+    background-color: #0f5270 !important;
+}
+
+.zonbtn {
+    padding: 6px 30px 8px 30px;
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    border-radius: 50px;
+    text-decoration: unset;
+}
+
+.zonbtn:hover {
+    color: #0f5270;
+    background: #fff;
+}
+
+.viewallbtn {
+    text-align: center !important;
+}
+
+.zonbtndrk {
+    background: rgba(36, 73, 63, 0.4);
+    padding: 15px 40px 15px 40px;
+}
+
+.zonbtndrk:hover {
+    background-color: rgb(94, 190, 163);
+    color: #ffffff;
+    border-color: rgb(94, 190, 163);
+}
+
+.isotopeHeader {
+    list-style: none;
+    display: flex;
+}
+.isotopeHeader li {
+    margin-left: 15px;
+    border: 2px solid #0f5270;
+    border-radius: 10px;
+    padding: 7px 15px !important;
+    cursor: pointer;
+}
+
+.isotopeHeader li:hover {
+    background-color: #0f5270;
+    color: #ffffff;
+}
+
+.isotopeHeader li.active {
+    background-color: #0f5270;
+    color: #ffffff;
+}
+@media screen and (max-width: 600px) {
+    .isotopeHeader {
+        width: 50% !important;
+        display: flex;
+        flex-wrap: wrap !important;
+    }
+    .isotopeHeader li {
+        margin-top: 10px !important;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .isotopeHeader {
+        width: 100% !important;
+    }
+}
