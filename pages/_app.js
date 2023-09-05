@@ -8,6 +8,7 @@ function App({ Component, pageProps }) {
   useEffect(() => {
     require("bootstrap/dist/js/bootstrap.bundle.min.js");
   }, []);
+  
   return (
     <React.StrictMode>
       <ThemeProvider theme={theme}>

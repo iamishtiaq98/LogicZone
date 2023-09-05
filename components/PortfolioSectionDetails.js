@@ -6,18 +6,25 @@ import { Box, Grid, List, ListItem, Typography } from '@mui/material';
 import styles from '@/styles/PortfolioSection.module.css';
 import Isotope from 'isotope-layout';
 
-function PortfolioSectionDetails() {
 
+
+
+function PortfolioSectionDetails() {
+    const isBrowser = () => typeof window !== 'undefined';
     const isotope = useRef()
     const [filterKey, setFilterKey] = useState('*')
     useEffect(() => {
-        isotope.current = new Isotope('.filter-container', {
-            itemSelector: '.filter-item',
-            layoutMode: 'fitRows',
-        })
-        return () => isotope.current.destroy()
+        if(isBrowser()){
+            isotope.current = new Isotope('.filter-container', {
+                itemSelector: '.filter-item',
+                layoutMode: 'fitRows',
+            })
+            return () => isotope.current.destroy()
+        }
+       
     }, [])
     useEffect(() => {
+
         filterKey === '*'
             ? isotope.current.arrange({ filter: `*` })
             : isotope.current.arrange({ filter: `.${filterKey}` })
