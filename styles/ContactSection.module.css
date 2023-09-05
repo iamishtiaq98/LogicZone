@@ -101,3 +101,14 @@
 .textwhite {
     color: #ffffff;
 }
+.btnContact{
+    background-color: #5ebea3 !important;
+    border-radius: 0px !important;
+    border-color: #5ebea3;
+}
+.btnContact:hover{
+    background-color: #62caa4 !important;
+    border-color: #62caa4;
+    color: #fff;
+    box-shadow: 2px 0px 30px  0px #312c2c;
+}

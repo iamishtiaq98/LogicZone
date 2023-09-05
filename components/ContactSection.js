@@ -20,7 +20,7 @@ function ContactSection() {
                         <Box p={5} className={`${styles.contactform} position-relative shadow ${styles.bgbrandprimary}`}>
                            
                             <Box className={`${styles.main_heading_text} ${styles.whitebr} text-center text-white mb-5`}>
-                                <Typography variant='h1' className={`${styles.haedingbarcenter} ${styles.headingh1} text-uppercase position-relative`}>
+                                <Typography variant='h2' className={`${styles.haedingbarcenter} ${styles.headingh1} text-uppercase position-relative`}>
                                     Contact Us
                                 </Typography>
                             </Box>
@@ -59,7 +59,7 @@ function ContactSection() {
                                     <textarea placeholder="Message" className={`form-control ${styles.bgtransparent} border-0 ${styles.textwhite} ${styles.contactinput} ps-0`} name="message" id="message" rows="5"></textarea>
                                 </Grid>
 
-                                <Button type="button" className="btn btn-outline-light px-3 mt-4" id="send_message">Submit</Button>
+                                <Button type="button" className={` ${styles.btnContact} btn btn-outline-light px-3 mt-4`} id="send_message">Submit</Button>
                             </Form>
                         </Box>
                     </Grid>
