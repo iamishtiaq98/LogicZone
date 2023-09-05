@@ -74,7 +74,7 @@ function Testimonials() {
                                         <Typography className={`${styles.card_text}`} variant='p'>
                                             Logics Zon is the one who takes time and care to understand your needs
                                             and make sure that everything is ok during the process.
-                                            IT's been a pleasure to do business with him. Thanks,
+                                            IT`s been a pleasure to do business with him. Thanks,
                                         </Typography>
                                         <br />
                                         <i className="fa fa-quote-right" aria-hidden="true"></i>
@@ -233,7 +233,7 @@ function Testimonials() {
                                         <Typography className={`${styles.card_text}`} variant='p'>
                                             Logics Zon was professional from start to finish on this project.
                                             Logics Zon worked well under time pressure and with a relatively
-                                            limited budget. I’d be more than happy to recommend him.
+                                            limited budget. I`d be more than happy to recommend him.
                                         </Typography>
                                         <br />
                                         <i className="fa fa-quote-right" aria-hidden="true"></i>

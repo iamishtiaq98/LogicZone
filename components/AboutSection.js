@@ -11,7 +11,7 @@ function AboutSection() {
         <Grid container spacing={3.5} className='align-items-center'>
                 <Grid item lg={6} md={5} sm={12}>
                     <Box className="about_img">
-                        <Image className='img-fluid' src={require('./assets/about/about.jpg')} alt='' />
+                        <Image className='img-fluid' src={require('./assets/about/about.jpg')} alt='image' />
                     </Box>
                 </Grid>
                 <Grid item lg={6} md={7} sm={12}>
@@ -20,7 +20,7 @@ function AboutSection() {
                             <Typography variant='h1' className={`${styles.haedingbar} ${styles.heading}`}>About Us</Typography>
                         </div>
                         <Typography variant='p'>
-                            We are a team of highly skilled and experienced professionals who are passionate about creating beautiful and functional websites that exceed our clients' expectations. Our agency was founded with the goal of providing top-notch web development and design services to businesses of all sizes, from startups to large enterprises.
+                            We are a team of highly skilled and experienced professionals who are passionate about creating beautiful and functional websites that exceed our client`s expectations. Our agency was founded with the goal of providing top-notch web development and design services to businesses of all sizes, from startups to large enterprises.
                             We work closely with our clients throughout the development process to ensure that their vision is realized.
                         </Typography>
                         <Box className={`${styles.aboutlistcontent} mt-4`}>

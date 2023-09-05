@@ -12,7 +12,12 @@ function ProcessSection() {
                     <Grid item lg={4} md={12} >
                         <div className={`shadow p-5 rounded text-white ${styles.processbox}`}>
                             <h1>Our Process</h1>
-                            <p>Web development is a complex process that requires multiple steps and stages to ensure that a website is functional, user-friendly, and visually appealing. It involves a series of steps from discovery and planning to design, development, content creation, launch, and maintenance. By following a structured process, we can create a website that meets the client's needs and provides a positive user experience.
+                            <p>
+                                Web development is a complex process that requires multiple steps and stages
+                                to ensure that a website is functional, user-friendly, and visually appealing.
+                                It involves a series of steps from discovery and planning to design, development, 
+                                content creation, launch, and maintenance. By following a structured process, 
+                                we can create a website that meets the client`s needs and provides a positive user experience.
                             </p>
                         </div>
                     </Grid>
@@ -34,7 +39,9 @@ function ProcessSection() {
                                     </svg>
                                     <div className="icon_div_content pt-4">
                                         <h4> Discovery and Planning</h4>
-                                        <p>In the initial stage, we will work with the client to gather requirements, discuss goals, and plan the website's design and functionality. This includes understanding the target audience, website objectives, and features.
+                                        <p>In the initial stage, we will work with the client to gather requirements, 
+                                            discuss goals, and plan the website`s design and functionality. This includes 
+                                            understanding the target audience, website objectives, and features.
                                         </p>
                                     </div>
                                 </Box>
@@ -56,7 +63,9 @@ function ProcessSection() {
                                     <div className="icon_div_content pt-4">
                                         <h4>Design</h4>
                                         <p>
-                                            Based on the planning phase, we will create a visual design of the website. This includes creating wireframes, mockups, and prototypes to demonstrate how the website will look and function.
+                                            Based on the planning phase, we will create a visual design of the website. 
+                                            This includes creating wireframes, mockups, and prototypes to demonstrate how 
+                                            the website will look and function.
                                         </p>
                                     </div>
                                 </Box>
@@ -80,7 +89,9 @@ function ProcessSection() {
                                     <div className="icon_div_content pt-4">
                                         <h4>Development</h4>
                                         <p>
-                                            Once the design is finalized, the development team will begin coding the website. The development phase also includes testing and bug-fixing to ensure the website functions correctly.
+                                            Once the design is finalized, the development team will begin coding the website. 
+                                            The development phase also includes testing and bug-fixing to ensure the website 
+                                            functions correctly.
                                         </p>
                                     </div>
                                 </Box>
@@ -101,7 +112,9 @@ function ProcessSection() {
                                     <div className="icon_div_content pt-4">
                                         <h4>Launch</h4>
                                         <p>
-                                            Once the website is completed, it's time to launch it on the internet. we will help the client with domain registration, hosting, and configuring the website for optimal performance.
+                                            Once the website is completed, it`s time to launch it on the internet. 
+                                            we will help the client with domain registration, hosting, and configuring the 
+                                            website for optimal performance.
                                         </p>
                                     </div>
                                 </Box>

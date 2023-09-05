@@ -32,7 +32,8 @@ function ServicesSection() {
                                     <Box className={`${styles.servicecontent} text-center pt-3`}>
                                         <Typography variant='h3'> Website Design </Typography>
                                         <Typography varient='p'>
-                                            Our team of designers creates visually appealing and user-friendly websites that reflect our clients' brand identity and business goals.
+                                            Our team of designers creates visually appealing and user-friendly websites 
+                                            that reflect our client`s brand identity and business goals.
                                         </Typography>
                                     </Box>
                                 </Box>
@@ -45,7 +46,8 @@ function ServicesSection() {
                                     <Box className={`${styles.servicecontent} text-center pt-3`}>
                                         <Typography variant='h3'> Website Development</Typography>
                                         <Typography variant='p'>
-                                            We develop custom web applications and websites with the backend panels using the latest technologies and industry standards.
+                                            We develop custom web applications and websites with the backend panels using 
+                                            the latest technologies and industry standards.
                                         </Typography>
                                     </Box>
                                 </Box>
@@ -58,7 +60,8 @@ function ServicesSection() {
                                     <Box className={`${styles.servicecontent} text-center pt-3`}>
                                         <Typography variant='h3'> Online Store</Typography>
                                         <Typography variant='p'>
-                                            We build e-commerce solutions that enable businesses to sell their products and services online, including online stores, shopping carts, and payment gateways.
+                                            We build e-commerce solutions that enable businesses to sell their 
+                                            products and services online, including online stores, shopping carts, and payment gateways.
                                         </Typography>
                                     </Box>
                                 </Box>
@@ -71,7 +74,8 @@ function ServicesSection() {
                                     <Box className={`${styles.servicecontent} text-center pt-3`}>
                                         <Typography variant='h3'>Website Maintenance</Typography>
                                         <Typography variant='p'>
-                                            We offer website maintenance and support services to ensure that websites are secure, up-to-date, and performing optimally.
+                                            We offer website maintenance and support services to ensure that websites 
+                                            are secure, up-to-date, and performing optimally.
                                         </Typography>
                                     </Box>
                                 </Box>
@@ -84,7 +88,9 @@ function ServicesSection() {
                                     <Box className={`${styles.servicecontent} text-center pt-3`}>
                                         <Typography variant='h3'>Graphics Design</Typography>
                                         <Typography variant='p'>
-                                            We provide branding and graphic design services to help businesses establish a strong visual identity and stand out in their industry. We provide services in <strong>social media</strong> as well to grow your business.
+                                            We provide branding and graphic design services to help businesses 
+                                            establish a strong visual identity and stand out in their industry. 
+                                            We provide services in <strong>social media</strong> as well to grow your business.
                                         </Typography>
                                     </Box>
                                 </Box>
@@ -97,7 +103,9 @@ function ServicesSection() {
                                     <Box className={`${styles.servicecontent} text-center pt-3`}>
                                         <Typography variant='h3'>Business Development</Typography>
                                         <Typography variant='p'>
-                                            We help your business grow and thrive in today's competitive marketplace. We work closely with you to understand your needs and develop customized strategies that help you achieve your goals.
+                                            We help your business grow and thrive in today`s competitive marketplace. 
+                                            We work closely with you to understand your needs and develop customized 
+                                            strategies that help you achieve your goals.
                                         </Typography>
                                     </Box>
                                 </Box>
