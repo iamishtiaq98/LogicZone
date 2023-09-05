@@ -16,6 +16,9 @@
     width: fit-content;
     margin: 0 auto;
     color: #212529;
+    text-transform: uppercase !important;
+  font-size: 45px !important;
+  font-weight: 600 !important;
 }
 
 .textuppercase {
