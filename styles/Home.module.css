@@ -1,34 +1,34 @@
 .main {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  padding: 6rem;
-  min-height: 100vh;
+  display: flex !important;
+  flex-direction: column !important; 
+  justify-content: space-between !important; 
+  align-items: center !important;
+  padding: 6rem !important;
+  min-height: 100vh !important;
 }
 
 .description {
-  display: inherit;
-  justify-content: inherit;
-  align-items: inherit;
-  font-size: 0.85rem;
-  max-width: var(--max-width);
-  width: 100%;
-  z-index: 2;
-  font-family: var(--font-mono);
+  display: inherit  !important;
+  justify-content: inherit !important;
+  align-items: inherit !important;
+  font-size: 0.85rem !important;
+  max-width: var(--max-width) !important;
+  width: 100% !important;
+  z-index: 2 !important;
+  font-family: var(--font-mono) !important;
 }
 
 .description a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 0.5rem;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important; 
+  gap: 0.5rem !important;
 }
 
 .description p {
-  position: relative;
-  margin: 0;
-  padding: 1rem;
+  position: relative !important;
+  margin: 0 !important; 
+  padding: 1rem !important;
   background-color: rgba(var(--callout-rgb), 0.5);
   border: 1px solid rgba(var(--callout-border-rgb), 0.3);
   border-radius: var(--border-radius);
